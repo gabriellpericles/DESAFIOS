@@ -50,6 +50,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+
     line-height: 2em;
     font-size: 3vw;
 }
@@ -59,6 +60,7 @@ section.normal{
 section.imagem{
     background-color: rgba(37, 37, 37, 0.514);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
 }
 section.imagem > pre{
     background-color: rgba(0, 0, 0, 0.349);
@@ -71,7 +73,7 @@ section > pre{
 }
 
 #q1{
-    background: darkgray url('imagens/background001.jpg') left center/cover no-repeat fixed;
+    background: darkgray url('imagens/background001.jpg') right center/cover no-repeat fixed;
 }
 #q2{
     background: darkgray url('imagens/background002.jpg') left center/cover no-repeat fixed;
