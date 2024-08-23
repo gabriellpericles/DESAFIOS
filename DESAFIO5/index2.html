@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    table{
+        margin: 10px;
+        border-collapse: collapse;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        width: 500px;
+        height: 80px;
+    }
+    thead{
+        text-align: center;
+        background-color: darkgray;
+        color: white;
+    }
+    td{
+        border: 1px solid black;
+    }
+    .num, .area{
+        text-align: center;
+    }
+    .media{
+        background-color: darkgray;
+        color: white;
+    }
+  </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td rowspan="2">Áreas</td>
+                <td rowspan="2">Disciplinas</td>
+                <td colspan="2">Notas</td>
+                <td rowspan="2">Média</td>
+            </tr>
+            <tr>
+                <td>Nota1</td>
+                <td>Nota2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="area" rowspan="4"><strong>Exatas</strong></td>
+                <td>Matematica</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr class="media">
+                <td colspan="4">Média de Exatas</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td class="area" rowspan="2"><strong>Humanas</strong></td>
+                <td>Historia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr class="media">
+                <td colspan="4">Média de Humnanas</td>
+                <td class="num">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
