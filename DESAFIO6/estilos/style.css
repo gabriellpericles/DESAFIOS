@@ -27,14 +27,33 @@ main {
 
 }
 
-img {
+main > section > #celular {
     max-width: 50%;
 }
-
-iframe#tela {
+main > section > iframe{
+   background-color: black;
+   position: relative;
+}
+#tela {
     position: absolute;
     left: 4%;
     top: 13%;
-    height: 100%;
-    width: 85%;
+    height: 74%;
+    width: 42%;
+}
+#rede{
+    text-align: right;
+}
+#img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;  
+    transition: all .5s;   
+    opacity: 0.5;
+}
+
+#img:hover{
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.466);
+    opacity: 1;
 }
