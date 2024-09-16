@@ -33,3 +33,17 @@ section .formulario{
     display: block;
     padding: 10px;
 }
+.botao{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    background: transparent;
+    margin: 10px 0 10px 0;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
