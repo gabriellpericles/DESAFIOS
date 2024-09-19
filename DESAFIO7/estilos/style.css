@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body, html{
-    background: rgb(170, 1, 170);
+    background: linear-gradient(to top, #531C7E, #A92084) no-repeat;
     height: 100vh;
     width: 100vw;
 }
@@ -14,6 +14,7 @@ main{
     width: 100vw;
     display: grid;
     place-items: center;
+    padding: 10px;
 }
 section{
     background: white;
@@ -23,6 +24,7 @@ section{
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.486);
     transition: all .5s;
+
 }
 section .imagem{
     display: block;
@@ -33,6 +35,23 @@ section .formulario{
     display: block;
     padding: 10px;
 }
+p{
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-variant: small-caps;
+    cursor: context-menu;
+}
+span{
+    cursor: context-menu;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom-style: ridge;
+    width: 100%;
+    margin-top: 0.2em;
+}
 .botao{
     width: 100%;
     padding: 0.5em;
@@ -40,10 +59,19 @@ section .formulario{
     border: 1px solid rgba(0, 0, 0, 0.521);
     background: transparent;
     margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+.botao:hover{
+    border: none;
+    background: #531C7E;
+    color: white;
+    cursor: pointer;
 }
 a{
     display: flex;
     justify-content: center;
     text-decoration: none;
     align-items: center;
+    font-size: 15px;
 }
+

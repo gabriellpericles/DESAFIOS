@@ -9,7 +9,12 @@
     }
     .formulario{
         float: right;
-        width: 56%;
+        width: 70%;
+    }
+    a{
+      display: block;
+      width: 200px;
+      margin: auto;
     }
 }
 @media screen and (min-width: 993px){
@@ -24,5 +29,10 @@
       .formulario{
         float: left;
         width: 50%;
+      }
+      a{
+        display: block;
+        width: 200px;
+        margin: auto;
       }
 }
